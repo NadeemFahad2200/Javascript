@@ -62,3 +62,17 @@ function returnsecondvalues(getarray) {
 }
 // console.log(returnsecondvalues(mynewarray));
 console.log(returnsecondvalues([200, 400, 500, 800]));
+
+
+// Arrow Function
+// const greet = () =>{
+//     console.log("Nadeem Fahad");
+// };
+// greet();
+
+
+const greet = (count) =>{
+    for (let i = 0; i < count; i++) console.log("Nadeem Fahad");
+    
+};
+greet(3);
